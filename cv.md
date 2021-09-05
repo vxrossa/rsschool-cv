@@ -18,11 +18,10 @@ I consider myself a hardworking and punctual student who is extremely interested
 - HTML/CSS;
 - SASS/SCSS;
 - Bootstrap 5;
+- Sublime Text, **VSCode**, Atom;
 - Git version control;
 - Adobe Photoshop, Illustrator;
 - JavaScript Basics;
-- Sublime Text, **VSCode**, Atom.
-
 
 ## Code examples
 

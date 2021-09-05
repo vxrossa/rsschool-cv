@@ -2,9 +2,9 @@
 ## Contacts
 Contact me at:
 
-    - Email: ibasalaev@icloud.com
-    - Discord: vxrossa#7225
-    - VK: vk.com/1basalaev
+- Email: ibasalaev@icloud.com
+- Discord: vxrossa#7225
+- [VK link](vk.com/1basalaev)
 ---
 ## Summary
 I'm a master's student at the Gubkin National University of Oil and Gas who is planning on studying programming and becoming a front-end developer. Right now my main goal is to learn the basics of programming and front-end programming.

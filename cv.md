@@ -5,7 +5,7 @@ Contact me at:
 - Email: ibasalaev@icloud.com
 - Discord: vxrossa#7225
 - [VK link](vk.com/1basalaev)
----
+
 ## Summary
 I'm a master's student at the Gubkin National University of Oil and Gas who is planning on studying programming and becoming a front-end developer. Right now my main goal is to learn the basics of programming and front-end programming.
 
@@ -14,8 +14,6 @@ My degree didn't specialize in programming languages, however I have experience 
 
 I consider myself a hardworking and punctual student who is extremely interested in web-design and especially web development.
 
-
----
 ## Skills
 - HTML/CSS;
 - SASS/SCSS;
@@ -25,7 +23,7 @@ I consider myself a hardworking and punctual student who is extremely interested
 - JavaScript Basics;
 - Sublime Text, **VSCode**, Atom.
 
----
+
 ## Code examples
 
 Square every digit of a number and concatenate them (7 kyu).
@@ -62,12 +60,10 @@ coinFlip(21);
 coinFlip(24);
 // У вас 24 монеты
 ```
----
 ## Work experience
 
 No previous work experience (only internships in Oil companies).
 
----
 ## Languages
 
 English: C1/C2 Advanced according to EFSet:

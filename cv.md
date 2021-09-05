@@ -1,14 +1,18 @@
-### Ivan Basalaev
+## Ivan Basalaev
+## Contacts
+Contact me at:
 
-1. Contact me:
     - Email: ibasalaev@icloud.com
     - Discord: vxrossa#7225
     - VK: vk.com/1basalaev
 ---
-2. I'm a master's student at the Gubkin National University of Oil and Gas who is planning on studying programming and becoming a front-end developer. Right now my main goal is to learn the basics of programming and front-end programming.
----
-3. I started learning HTML and CSS in school several years ago and right now I have enough experience to build simple websites with some responsive elements.
+## Summary
+I'm a master's student at the Gubkin National University of Oil and Gas who is planning on studying programming and becoming a front-end developer. Right now my main goal is to learn the basics of programming and front-end programming.
+
+I started learning HTML and CSS in school several years ago and right now I have enough experience to build simple websites with some responsive elements.
 My degree didn't specialize in programming languages, however I have experience with MatLab and Python for simple calculations. Right now I'm learning JavaScript and also plan on learning React.
+
+
 ---
 ## Skills
 - HTML/CSS

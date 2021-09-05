@@ -12,22 +12,26 @@ I'm a master's student at the Gubkin National University of Oil and Gas who is p
 I started learning HTML and CSS in school several years ago and right now I have enough experience to build simple websites with some responsive elements.
 My degree didn't specialize in programming languages, however I have experience with MatLab and Python for simple calculations. Right now I'm learning JavaScript and also plan on learning React.
 
+I consider myself a hardworking and punctual student who is extremely interested in web-design and especially web development.
+
 
 ---
 ## Skills
-- HTML/CSS
-- SASS/SCSS
-- Bootstrap 5
-- Git version control
-- Adobe Photoshop, Illustrator
-- JavaScript Basics
+- HTML/CSS;
+- SASS/SCSS;
+- Bootstrap 5;
+- Git version control;
+- Adobe Photoshop, Illustrator;
+- JavaScript Basics;
+- Sublime Text, **VSCode**, Atom.
 ---
 ## Code examples
 
-    Square every digit of a number and concatenate them (7 kyu).
+Square every digit of a number and concatenate them (7 kyu).
 For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1.
 
-    https://www.codewars.com/kata/546e2562b03326a88e000020
+[Link to CodeWars](https://www.codewars.com/kata/546e2562b03326a88e000020)
+
 ```javascript
 function sqConcat (num) {
     return +num.toString().split("").map(x => Math.pow(x,2)).join("");

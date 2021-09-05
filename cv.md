@@ -6,6 +6,8 @@ Contact me at:
 - Discord: vxrossa#7225
 - [VK link](vk.com/1basalaev)
 
+
+
 ## Summary
 I'm a master's student at the Gubkin National University of Oil and Gas who is planning on studying programming and becoming a front-end developer. Right now my main goal is to learn the basics of programming and front-end programming.
 
@@ -22,6 +24,8 @@ I consider myself a hardworking and punctual student who is extremely interested
 - Git version control;
 - Adobe Photoshop, Illustrator;
 - JavaScript Basics;
+
+
 
 ## Code examples
 

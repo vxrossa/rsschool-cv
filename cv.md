@@ -24,6 +24,7 @@ I consider myself a hardworking and punctual student who is extremely interested
 - Adobe Photoshop, Illustrator;
 - JavaScript Basics;
 - Sublime Text, **VSCode**, Atom.
+
 ---
 ## Code examples
 

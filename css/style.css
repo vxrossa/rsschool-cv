@@ -144,6 +144,41 @@ main .education h2 {
   margin-left: 20px;
 }
 
+main .education .edu-columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Open Sans, sanf-serif;
+  margin-bottom: 20px;
+}
+
+main .education .edu-columns-left {
+  width: 30%;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+main .education .edu-columns-left p {
+  margin: 0;
+}
+
+main .education .edu-columns-left h2 {
+  margin: 0;
+}
+
+main .education .edu-columns-left .uni {
+  margin-bottom: 10px;
+}
+
+main .education .edu-columns-right {
+  width: 70%;
+  margin-right: 20px;
+}
+
+main .education .edu-columns-right p {
+  margin: 0;
+}
+
 .break {
   border: 0.5px solid #333;
   margin: 5px 20px;

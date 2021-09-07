@@ -9,7 +9,7 @@ body {
 
 main {
   width: 800px;
-  height: 1120px;
+  height: 1000px;
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
@@ -103,7 +103,7 @@ main .contacts p {
 }
 
 main .contacts a {
-  margin: 0 0 0 5px;
+  margin: 0 0 0 10px;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
@@ -354,6 +354,45 @@ main .languages-head h2 {
 
 main .languages-head p {
   margin: 0;
+}
+
+main .work-experience-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+main .work-experience p {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 20px;
+}
+
+main .courses p {
+  margin: 10px 0 0 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+main .courses-head {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .course-lin {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  margin: 20px 0 0 20px;
+}
+
+main .course-lin:visited {
+  color: #888;
+}
+
+main .course-lin:hover {
+  color: #0300b4;
 }
 
 .break {

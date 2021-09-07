@@ -9,7 +9,7 @@ body {
 
 main {
   width: 800px;
-  height: 1200px;
+  height: 1120px;
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
@@ -122,6 +122,102 @@ main .skills {
   margin-top: 20px;
 }
 
+main .skills .progress p {
+  margin: 0 0 0 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+main .skills .progress-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .skills .progress-bar-html {
+  height: 10px;
+  width: 75%;
+  background-color: #0300b4;
+  margin: 0 0 0 20px;
+}
+
+main .skills .progress-bar-html-none {
+  height: 10px;
+  background-color: #999;
+  width: 25%;
+  margin: 0 20px 0 0;
+}
+
+main .skills .progress-bar-css {
+  height: 10px;
+  width: 60%;
+  background-color: #0300b4;
+  margin: 0 0 0 20px;
+}
+
+main .skills .progress-bar-css-none {
+  height: 10px;
+  background-color: #999;
+  width: 40%;
+  margin: 0 20px 0 0;
+}
+
+main .skills .progress-bar-bs {
+  height: 10px;
+  width: 30%;
+  background-color: #0300b4;
+  margin: 0 0 0 20px;
+}
+
+main .skills .progress-bar-bs-none {
+  height: 10px;
+  background-color: #999;
+  width: 70%;
+  margin: 0 20px 0 0;
+}
+
+main .skills .progress-bar-git {
+  height: 10px;
+  width: 50%;
+  background-color: #0300b4;
+  margin: 0 0 0 20px;
+}
+
+main .skills .progress-bar-git-none {
+  height: 10px;
+  background-color: #999;
+  width: 50%;
+  margin: 0 20px 0 0;
+}
+
+main .skills .progress-bar-js {
+  height: 10px;
+  width: 40%;
+  background-color: #0300b4;
+  margin: 0 0 0 20px;
+}
+
+main .skills .progress-bar-js-none {
+  height: 10px;
+  background-color: #999;
+  width: 60%;
+  margin: 0 20px 0 0;
+}
+
+main .skills .progress-bar-ps {
+  height: 10px;
+  width: 80%;
+  background-color: #0300b4;
+  margin: 0 0 0 20px;
+}
+
+main .skills .progress-bar-ps-none {
+  height: 10px;
+  background-color: #999;
+  width: 0%;
+  margin: 0 20px 0 0;
+}
+
 main .skills-head {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -221,8 +317,39 @@ main a:hover {
   color: #0300b4;
 }
 
+main .key-skills li {
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+}
+
+main .key-skills li::before {
+  content: '';
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6f/Ic_chevron_right_48px.svg);
+  margin-left: -25px;
+}
+
+main .languages-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+main .languages-head h2 {
+  margin-left: 20px;
+}
+
+main .languages-head p {
+  margin: 0;
+}
+
 .break {
-  border: 0.5px solid #333;
+  border: 1px solid #aaa;
   margin: 5px 20px;
 }
 

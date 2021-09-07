@@ -1,16 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
-    
-$cv-width: 700px
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans&display=swap');
+/* SVG Icons Import */
+@import url('https://css.gg/css');
+
+$cv-width: 800px
 $left-width: 250px
 $text-color: #333;
 $padding-size: 20px
+$regular-font: 'Open Sans', sans-serif
 body
     background-color: #eee
+    color: $text-color
 
 
 main
     width: $cv-width
-    height: 900px
+    height: 1200px
     background-color: #fff
     margin-left: auto
     margin-right: auto
@@ -18,6 +23,8 @@ main
     box-shadow: 6px 3px 23px -9px rgba(34, 60, 80, 0.2);
     position: relative
     padding-top: 10px
+    .job-title
+        margin-left: 20px
     header
         width: auto
         background-color: #ccc
@@ -29,6 +36,7 @@ main
             font-size: 32px
             margin: 0px
             color: $text-color
+            font-weight: 600
     .col
         display: flex
         margin: 20px
@@ -37,11 +45,26 @@ main
             flex-direction: column
         &-right
             width: $cv-width - $left-width
-
+    .about
+        text-align: left
+        &-head
+            display: flex
+            margin-left: $padding-size
+        p
+            font-family: $regular-font
+            font-size: 13px
+            margin-left: $padding-size
+    h2
+        font-size: 16px
+        text-transform: uppercase
+        font-family: Montserrat, sans-serif
+        font-weight: 500
+        margin: 0 0 0 10px
+    .contacts
+        text-align: center
 .break
-    border: 1px solid #777
-    margin-left: 20px
-    margin-right: 20px
+    border: 0.5px solid $text-color
+    margin: 5px 20px
 
 footer
     background-color: #ddd

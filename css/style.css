@@ -1,11 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+/* Google Fonts Import */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans&display=swap");
+/* SVG Icons Import */
+@import url("https://css.gg/css");
 body {
   background-color: #eee;
+  color: #333;
 }
 
 main {
-  width: 700px;
-  height: 900px;
+  width: 800px;
+  height: 1200px;
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
@@ -15,6 +19,10 @@ main {
           box-shadow: 6px 3px 23px -9px rgba(34, 60, 80, 0.2);
   position: relative;
   padding-top: 10px;
+}
+
+main .job-title {
+  margin-left: 20px;
 }
 
 main header {
@@ -30,6 +38,7 @@ main header h1 {
   font-size: 32px;
   margin: 0px;
   color: #333;
+  font-weight: 600;
 }
 
 main .col {
@@ -48,13 +57,41 @@ main .col-left {
 }
 
 main .col-right {
-  width: 450px;
+  width: 550px;
+}
+
+main .about {
+  text-align: left;
+}
+
+main .about-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+main .about p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+main h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  margin: 0 0 0 10px;
+}
+
+main .contacts {
+  text-align: center;
 }
 
 .break {
-  border: 1px solid #777;
-  margin-left: 20px;
-  margin-right: 20px;
+  border: 0.5px solid #333;
+  margin: 5px 20px;
 }
 
 footer {

@@ -137,7 +137,7 @@ main .education-head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0px 0 0 20px;
+  margin: 0 0 0 20px;
 }
 
 main .education h2 {
@@ -177,6 +177,48 @@ main .education .edu-columns-right {
 
 main .education .edu-columns-right p {
   margin: 0;
+}
+
+main .code-example {
+  margin-left: 0px;
+}
+
+main .code-example-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 25px;
+}
+
+main .code-example-head h2 {
+  margin-left: 15px;
+}
+
+main .code-example pre {
+  font-family: Consolas, monospace;
+  letter-spacing: -1px;
+}
+
+main .code-text {
+  margin-left: 20px;
+}
+
+main .code-text p {
+  font-family: Open Sans, sans-serif;
+}
+
+main a {
+  font-decoration: none;
+  font-family: Open Sans, sans-serif;
+  color: #333;
+}
+
+main a:visited {
+  color: #888;
+}
+
+main a:hover {
+  color: #0300b4;
 }
 
 .break {

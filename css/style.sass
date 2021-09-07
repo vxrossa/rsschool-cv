@@ -147,7 +147,7 @@ main
                     &-none
                         height: 10px
                         background-color: #999
-                        width: 0%
+                        width: 20%
                         margin: 0 20px 0 0
 
         &-head
@@ -217,7 +217,9 @@ main
                 background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6f/Ic_chevron_right_48px.svg)
                 margin-left: -25px
     .languages
-        
+        font-family: $regular-font
+        p
+            margin: 5px 0 0 20px
         &-head
             display: flex
             margin-left: 20px
@@ -225,15 +227,27 @@ main
                 margin-left: 20px
             p
                 margin: 0
+                
 
 .break
     border: 1px solid #aaa
     margin: 5px 20px
 
 footer
-    background-color: #ddd
+    background-color: rgb(254,234,104)
     position: absolute
     bottom: 0px
     padding: 0px
     height: 40px
     width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+    .github-icon
+        margin-left: 30px
+    .rs-icon
+        margin-right: 30px
+    p
+        font-family: $regular-font
+        margin-left: 30px
+    

@@ -214,7 +214,7 @@ main .skills .progress-bar-ps {
 main .skills .progress-bar-ps-none {
   height: 10px;
   background-color: #999;
-  width: 0%;
+  width: 20%;
   margin: 0 20px 0 0;
 }
 
@@ -333,6 +333,14 @@ main .key-skills li::before {
   margin-left: -25px;
 }
 
+main .languages {
+  font-family: "Open Sans", sans-serif;
+}
+
+main .languages p {
+  margin: 5px 0 0 20px;
+}
+
 main .languages-head {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -354,10 +362,32 @@ main .languages-head p {
 }
 
 footer {
-  background-color: #ddd;
+  background-color: #feea68;
   position: absolute;
   bottom: 0px;
   padding: 0px;
   height: 40px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .github-icon {
+  margin-left: 30px;
+}
+
+footer .rs-icon {
+  margin-right: 30px;
+}
+
+footer p {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 30px;
 }

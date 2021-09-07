@@ -1,19 +1,52 @@
-$cv-width: 800px
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+    
+$cv-width: 700px
 $left-width: 250px
-
+$text-color: #333;
+$padding-size: 20px
 body
-    background-color: #ddd
+    background-color: #eee
+
 
 main
     width: $cv-width
-    height: 800px
+    height: 900px
     background-color: #fff
     margin-left: auto
     margin-right: auto
-    display: flex
     align-content: center
-    flex-wrap: nowrap
-.col-left
-    width: $left-width
-.col-right
-    width: $cv-width - $left-width
+    box-shadow: 6px 3px 23px -9px rgba(34, 60, 80, 0.2);
+    position: relative
+    padding-top: 10px
+    header
+        width: auto
+        background-color: #ccc
+        font-family: Montserrat, sans-serif
+        letter-spacing: 10px
+        text-transform: uppercase
+        margin: 20px
+        h1
+            font-size: 32px
+            margin: 0px
+            color: $text-color
+    .col
+        display: flex
+        margin: 20px
+        &-left
+            width: $left-width
+            flex-direction: column
+        &-right
+            width: $cv-width - $left-width
+
+.break
+    border: 1px solid #777
+    margin-left: 20px
+    margin-right: 20px
+
+footer
+    background-color: #ddd
+    position: absolute
+    bottom: 0px
+    padding: 0px
+    height: 40px
+    width: 100%

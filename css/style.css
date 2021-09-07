@@ -27,7 +27,6 @@ main .job-title {
 
 main header {
   width: auto;
-  background-color: #ccc;
   font-family: Montserrat, sans-serif;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -83,10 +82,66 @@ main h2 {
   font-family: Montserrat, sans-serif;
   font-weight: 500;
   margin: 0 0 0 10px;
+  color: #2a08a3;
 }
 
 main .contacts {
   text-align: center;
+}
+
+main .contacts .contact-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 8px 0 0 20px;
+}
+
+main .contacts p {
+  margin: 0 0 0 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+
+main .contacts a {
+  margin: 0 0 0 5px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  color: #333;
+}
+
+main .contacts a:visited {
+  color: #888;
+}
+
+main .contacts a:hover {
+  color: #0300b4;
+}
+
+main .skills {
+  margin-top: 20px;
+}
+
+main .skills-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 8px 0 0 20px;
+}
+
+main .education {
+  margin-top: 0px;
+}
+
+main .education-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 0 0 20px;
+}
+
+main .education h2 {
+  margin-left: 20px;
 }
 
 .break {

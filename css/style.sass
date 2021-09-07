@@ -27,7 +27,6 @@ main
         margin-left: 20px
     header
         width: auto
-        background-color: #ccc
         font-family: Montserrat, sans-serif
         letter-spacing: 10px
         text-transform: uppercase
@@ -60,8 +59,38 @@ main
         font-family: Montserrat, sans-serif
         font-weight: 500
         margin: 0 0 0 10px
+        color: #2a08a3
     .contacts
         text-align: center
+        .contact-link
+            display: flex
+            margin: 8px 0 0 20px
+        p
+            margin: 0 0 0 5px
+            font-family: $regular-font
+            font-size: 13px
+        a
+            margin: 0 0 0 5px
+            text-decoration: none
+            font-family: $regular-font
+            font-size: 13px
+            color: $text-color
+            &:visited
+                color: #888
+            &:hover
+                color: #0300b4
+    .skills
+        margin-top: 20px
+        &-head
+            display: flex
+            margin: 8px 0 0 20px
+    .education
+        margin-top: 0px
+        &-head
+            display: flex
+            margin: 0px 0 0 20px
+        h2
+            margin-left: 20px
 .break
     border: 0.5px solid $text-color
     margin: 5px 20px

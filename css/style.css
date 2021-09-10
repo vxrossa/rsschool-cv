@@ -478,6 +478,9 @@ footer p {
   .contacts a {
     font-size: 1.5rem;
   }
+  .code-t {
+    overflow-y: auto;
+  }
 }
 
 @media all and (max-width: 600px) {
@@ -503,5 +506,8 @@ footer p {
   }
   .edu-columns-left p {
     font-size: 1rem;
+  }
+  .code-t {
+    overflow-y: auto;
   }
 }

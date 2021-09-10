@@ -5,11 +5,13 @@
 body {
   background-color: #eee;
   color: #333;
+  font-size: 15px;
 }
 
 main {
-  width: 850px;
-  height: 1030px;
+  max-width: 850px;
+  height: auto;
+  padding-bottom: 50px;
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
@@ -27,14 +29,33 @@ main .job-title {
 
 main header {
   width: auto;
+  height: 180px;
   font-family: Montserrat, sans-serif;
   letter-spacing: 10px;
   text-transform: uppercase;
   margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main header .profile-pic {
+  width: 180px;
+  hegith: 180px;
+  border-radius: 500px;
+  background-image: url(/img/);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main header h1 {
-  font-size: 32px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 3rem;
   margin: 0px;
   color: #333;
   font-weight: 600;
@@ -48,7 +69,7 @@ main .col {
 }
 
 main .col-left {
-  width: 250px;
+  max-width: 250px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -56,7 +77,7 @@ main .col-left {
 }
 
 main .col-right {
-  width: 600px;
+  max-width: 600px;
 }
 
 main .about {
@@ -70,14 +91,13 @@ main .about-head {
   margin-left: 20px;
 }
 
-main .about p {
+main .about .about-text {
   font-family: "Open Sans", sans-serif;
-  font-size: 13px;
   margin-left: 20px;
 }
 
 main h2 {
-  font-size: 16px;
+  font-size: 1.2rem;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   font-weight: 500;
@@ -99,14 +119,13 @@ main .contacts .contact-link {
 main .contacts p {
   margin: 0 0 0 5px;
   font-family: "Open Sans", sans-serif;
-  font-size: 13px;
+  font-size: 1rem;
 }
 
 main .contacts a {
   margin: 0 0 0 10px;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
-  font-size: 13px;
   color: #333;
 }
 
@@ -215,7 +234,7 @@ main .skills .progress-bar-ps-none {
   height: 10px;
   background-color: #999;
   width: 20%;
-  margin: 0 20px 0 0;
+  margin: 0 20px 25px 0;
 }
 
 main .skills-head {
@@ -325,9 +344,9 @@ main .key-skills li {
 main .key-skills li::before {
   content: '';
   display: inline-block;
-  height: 16px;
-  width: 16px;
-  background-size: 16px;
+  height: 1.2rem;
+  width: 1.2rem;
+  background-size: 1.2rem;
   background-repeat: no-repeat;
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6f/Ic_chevron_right_48px.svg);
   margin-left: -25px;
@@ -429,4 +448,60 @@ footer .rs-icon {
 footer p {
   font-family: "Open Sans", sans-serif;
   margin-left: 30px;
+}
+
+@media all and (max-width: 870px) {
+  main {
+    width: 600px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .col {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .col-left {
+    min-width: 550px;
+  }
+  body {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  header {
+    height: 100px;
+  }
+  .profile-pic {
+    height: 140px;
+  }
+  .contacts a {
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (max-width: 600px) {
+  main {
+    width: 420px;
+    height: auto;
+  }
+  .col-left {
+    min-width: 380px;
+  }
+  .profile-pic {
+    height: 0;
+    widht: 0;
+    -webkit-transition: 0s;
+    transition: 0s;
+  }
+  h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .edu-columns-left h2 {
+    font-size: 0.9rem;
+  }
+  .edu-columns-left p {
+    font-size: 1rem;
+  }
 }

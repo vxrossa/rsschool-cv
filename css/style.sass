@@ -8,14 +8,17 @@ $left-width: 250px
 $text-color: #333;
 $padding-size: 20px
 $regular-font: 'Open Sans', sans-serif
+$photo-size: 180px
 body
     background-color: #eee
     color: $text-color
+    font-size: 15px
 
 
 main
-    width: $cv-width
-    height: 1030px
+    max-width: $cv-width
+    height: auto
+    padding-bottom: 50px
     background-color: #fff
     margin-left: auto
     margin-right: auto
@@ -27,12 +30,23 @@ main
         margin-left: 20px
     header
         width: auto
+        height: $photo-size
         font-family: Montserrat, sans-serif
         letter-spacing: 10px
         text-transform: uppercase
         margin: 20px
+        display: flex
+        justify-content: space-between
+        .profile-pic
+            width: $photo-size
+            hegith: $photo-size
+            border-radius: 500px
+            background-image: url(/img/)
+            background-repeat: no-repeat
+            background-size: cover
         h1
-            font-size: 32px
+            align-self: center
+            font-size: 3rem
             margin: 0px
             color: $text-color
             font-weight: 600
@@ -40,21 +54,20 @@ main
         display: flex
         margin: 20px
         &-left
-            width: $left-width
+            max-width: $left-width
             flex-direction: column
         &-right
-            width: $cv-width - $left-width
+            max-width: $cv-width - $left-width
     .about
         text-align: left
         &-head
             display: flex
             margin-left: $padding-size
-        p
+        .about-text
             font-family: $regular-font
-            font-size: 13px
             margin-left: $padding-size
     h2
-        font-size: 16px
+        font-size: 1.2rem
         text-transform: uppercase
         font-family: Montserrat, sans-serif
         font-weight: 500
@@ -68,12 +81,11 @@ main
         p
             margin: 0 0 0 5px
             font-family: $regular-font
-            font-size: 13px
+            font-size: 1rem
         a
             margin: 0 0 0 10px
             text-decoration: none
             font-family: $regular-font
-            font-size: 13px
             color: $text-color
             &:visited
                 color: #888
@@ -148,7 +160,7 @@ main
                         height: 10px
                         background-color: #999
                         width: 20%
-                        margin: 0 20px 0 0
+                        margin: 0 20px 25px 0
 
         &-head
             display: flex
@@ -210,9 +222,9 @@ main
             &::before
                 content: ''
                 display: inline-block
-                height: 16px
-                width: 16px
-                background-size: 16px
+                height: 1.2rem
+                width: 1.2rem
+                background-size: 1.2rem
                 background-repeat: no-repeat
                 background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6f/Ic_chevron_right_48px.svg)
                 margin-left: -25px
@@ -275,4 +287,44 @@ footer
     p
         font-family: $regular-font
         margin-left: 30px
-    
+
+
+@media all and (max-width: 870px)
+    main
+        width: 600px
+        height: auto
+        padding-bottom: 20px
+    .col
+        flex-wrap: wrap
+    .col-left
+        min-width: 550px
+    body
+        font-size: 20px
+    h1
+        font-size: 2rem
+    header
+        height: 100px
+    .profile-pic
+        height: 140px
+    .contacts
+        a
+            font-size: 1.5rem
+
+@media all and (max-width: 600px)
+    main
+        width: 420px
+        height: auto
+    .col-left
+        min-width: 380px
+    .profile-pic
+        height: 0
+        widht: 0
+        transition: 0s
+    h1
+        font-size: 1rem
+        text-align: center
+    .edu-columns-left
+        h2
+            font-size: 0.9rem
+        p
+            font-size: 1rem

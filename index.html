@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>RSSchool CV</title>
@@ -12,6 +12,7 @@
     <main>
         <header>
             <h1>Ivan Basalaev</h1>
+            <div class="profile-pic" style="background-image: url(/img/IMG_2726.jpeg)"></div>
         </header>
         <hr class="break">
             <h2 class='job-title'>Front-End Developer (beginner)</h2>
@@ -24,12 +25,12 @@
                         <h2>About me</h2>
                     </div>
                     <hr class="break">
-                    <p>I'm a master's student at the Gubkin National University of 
+                    <p class="about-text">I'm a master's student at the Gubkin National University of 
                     Oil and Gas who is planning on studying programming and 
                     becoming a front-end developer. Right now my main goal is to 
                     learn the basics of programming and front-end programming.
                     </p>
-                    <p>
+                    <p class="about-text">
                     I started learning HTML and CSS in school several years ago
                     and right now I have enough experience to build simple websites
                     with some responsive elements.
@@ -162,15 +163,15 @@
                             <i>Square every digit of a number and concatenate them (7 kyu).
                             For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1.</i>
                         </p>
-                        <pre>
-function sqConcat (num) {
-return +num.toString().split("").map(x => Math.pow(x,2)).join("");
+                        <code>
+function sqConcat (num) {<br>
+return +num.toString().split("").map(x => Math.pow(x,2)).join("");<br>
 }
-console.log(sqConcat(989);
-                        </pre>
+console.log(sqConcat(989);<br>
+                        </code>
                     </div>
                 </section>
-                <section class="languages">
+                <section class="languages" style="margin-top: 18px">
                     <div class="languages-head">
                         <i class="gg-volume"></i>
                         <h2>Languages</h2>

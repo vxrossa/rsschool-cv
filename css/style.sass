@@ -1,0 +1,334 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans&display=swap');
+/* SVG Icons Import */
+@import url('https://css.gg/css');
+
+$cv-width: 850px
+$left-width: 250px
+$text-color: #333;
+$padding-size: 20px
+$regular-font: 'Open Sans', sans-serif
+$photo-size: 180px
+body
+    background-color: #eee
+    color: $text-color
+    font-size: 15px
+
+
+main
+    max-width: $cv-width
+    height: auto
+    padding-bottom: 50px
+    background-color: #fff
+    margin-left: auto
+    margin-right: auto
+    align-content: center
+    box-shadow: 6px 3px 23px -9px rgba(34, 60, 80, 0.2);
+    position: relative
+    padding-top: 10px
+    .job-title
+        margin-left: 20px
+    header
+        width: auto
+        height: $photo-size
+        font-family: Montserrat, sans-serif
+        letter-spacing: 10px
+        text-transform: uppercase
+        margin: 20px
+        display: flex
+        justify-content: space-between
+        .profile-pic
+            width: $photo-size
+            hegith: $photo-size
+            border-radius: 500px
+            background-image: url(/img/)
+            background-repeat: no-repeat
+            background-size: cover
+        h1
+            align-self: center
+            font-size: 3rem
+            margin: 0px
+            color: $text-color
+            font-weight: 600
+    .col
+        display: flex
+        margin: 20px
+        &-left
+            max-width: $left-width
+            flex-direction: column
+        &-right
+            max-width: $cv-width - $left-width
+    .about
+        text-align: left
+        &-head
+            display: flex
+            margin-left: $padding-size
+        .about-text
+            font-family: $regular-font
+            margin-left: $padding-size
+    h2
+        font-size: 1.2rem
+        text-transform: uppercase
+        font-family: Montserrat, sans-serif
+        font-weight: 500
+        margin: 0 0 0 10px
+        color: #2a08a3
+    .contacts
+        text-align: center
+        .contact-link
+            display: flex
+            margin: 8px 0 0 20px
+        p
+            margin: 0 0 0 5px
+            font-family: $regular-font
+            font-size: 1rem
+        a
+            margin: 0 0 0 10px
+            text-decoration: none
+            font-family: $regular-font
+            color: $text-color
+            &:visited
+                color: #888
+            &:hover
+                color: #0300b4
+    .skills
+        margin-top: 20px
+        .progress
+            
+            p
+                margin: 5px 0 0 20px
+                font-family: $regular-font
+                font-weight: 600
+            &-bar
+                display: flex
+                &-html
+                    height: 10px
+                    width: 75%
+                    background-color: #0300b4
+                    margin: 0 0 0 20px
+                    &-none
+                        height: 10px
+                        background-color: #999
+                        width: 25%
+                        margin: 0 20px 0 0
+                &-css
+                    height: 10px
+                    width: 60%
+                    background-color: #0300b4
+                    margin: 0 0 0 20px
+                    &-none
+                        height: 10px
+                        background-color: #999
+                        width: 40%
+                        margin: 0 20px 0 0
+                &-bs
+                    height: 10px
+                    width: 30%
+                    background-color: #0300b4
+                    margin: 0 0 0 20px
+                    &-none
+                        height: 10px
+                        background-color: #999
+                        width: 70%
+                        margin: 0 20px 0 0
+                &-git
+                    height: 10px
+                    width: 50%
+                    background-color: #0300b4
+                    margin: 0 0 0 20px
+                    &-none
+                        height: 10px
+                        background-color: #999
+                        width: 50%
+                        margin: 0 20px 0 0
+                &-js
+                    height: 10px
+                    width: 40%
+                    background-color: #0300b4
+                    margin: 0 0 0 20px
+                    &-none
+                        height: 10px
+                        background-color: #999
+                        width: 60%
+                        margin: 0 20px 0 0
+                &-ps
+                    height: 10px
+                    width: 80%
+                    background-color: #0300b4
+                    margin: 0 0 0 20px
+                    &-none
+                        height: 10px
+                        background-color: #999
+                        width: 20%
+                        margin: 0 20px 25px 0
+
+        &-head
+            display: flex
+            margin: 8px 0 0 20px
+    .education
+        margin-top: 0px
+        &-head
+            display: flex
+            margin: 0 0 0 20px
+        h2
+            margin-left: 20px
+        .edu-columns
+            display: flex
+            font-family: Open Sans, sanf-serif
+            margin-bottom: 20px
+            &-left
+                width: 30%
+                margin-left: 20px
+                font-weight: 600
+                p
+                    margin: 0
+                h2
+                    margin: 0
+                .uni
+                    margin-bottom: 10px
+            &-right
+                
+                width: 70%
+                margin-right: 20px
+                p
+                    margin: 0
+    .code-example
+        margin-left: 0px
+        &-head
+            display: flex
+            margin-left: 25px
+            h2
+                margin-left: 15px
+        pre
+            font-family: Consolas, monospace
+            letter-spacing: -1px
+    .code-text
+        margin-left: 20px
+        p
+            font-family: Open Sans, sans-serif
+    a
+        font-decoration: none
+        font-family: Open Sans, sans-serif
+        color: $text-color
+        &:visited
+            color: #888
+        &:hover
+            color: #0300b4
+    .key-skills
+
+        li
+            font-family: $regular-font
+            list-style: none
+            &::before
+                content: ''
+                display: inline-block
+                height: 1.2rem
+                width: 1.2rem
+                background-size: 1.2rem
+                background-repeat: no-repeat
+                background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6f/Ic_chevron_right_48px.svg)
+                margin-left: -25px
+    .languages
+        font-family: $regular-font
+        p
+            margin: 5px 0 0 20px
+        &-head
+            display: flex
+            margin-left: 20px
+            h2
+                margin-left: 20px
+            p
+                margin: 0
+    .work-experience
+
+        &-head
+            display: flex
+            margin-left: 20px
+        p
+            font-family: $regular-font
+            margin-left: 20px
+    .courses
+
+        p
+            margin: 10px 0 0 20px
+            font-family: $regular-font
+        &-head
+            margin-left: 20px
+            display: flex
+    .course-lin
+        text-decoration: none
+        font-family: $regular-font
+        color: $text-color
+        margin: 20px 0 0 20px
+        &:visited
+            color: #888
+        &:hover
+            color: #0300b4
+
+
+.break
+    border: 1px solid #aaa
+    margin: 5px 20px
+
+footer
+    background-color: rgb(254,234,104)
+    position: absolute
+    bottom: 0px
+    padding: 0px
+    height: 40px
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+    .github-icon
+        margin-left: 30px
+    .rs-icon
+        margin-right: 30px
+    p
+        font-family: $regular-font
+        margin-left: 30px
+
+
+@media all and (max-width: 870px)
+    main
+        width: 600px
+        height: auto
+        padding-bottom: 20px
+    .col
+        flex-wrap: wrap
+    .col-left
+        min-width: 550px
+    body
+        font-size: 20px
+    h1
+        font-size: 2rem
+    header
+        height: 100px
+    .profile-pic
+        height: 140px
+    .contacts
+        a
+            font-size: 1.5rem
+    .code-t
+        overflow-y: auto
+
+@media all and (max-width: 600px)
+    main
+        width: 420px
+        height: auto
+    .col-left
+        min-width: 380px
+    .profile-pic
+        height: 0
+        widht: 0
+        transition: 0s
+    h1
+        font-size: 1rem
+        text-align: center
+    .edu-columns-left
+        h2
+            font-size: 0.9rem
+        p
+            font-size: 1rem
+    .code-t
+        overflow-y: auto

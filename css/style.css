@@ -101,7 +101,7 @@ main h2 {
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   font-weight: 500;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 0px;
   color: #2a08a3;
 }
 
@@ -256,7 +256,7 @@ main .education-head {
 }
 
 main .education h2 {
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 main .education .edu-columns {
@@ -302,11 +302,11 @@ main .code-example-head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 25px;
+  margin-left: 20px;
 }
 
 main .code-example-head h2 {
-  margin-left: 15px;
+  margin-left: 0px;
 }
 
 main .code-example pre {
@@ -368,7 +368,7 @@ main .languages-head {
 }
 
 main .languages-head h2 {
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 main .languages-head p {

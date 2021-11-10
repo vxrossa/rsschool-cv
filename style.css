@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&family=Josefin+Sans:wght@400;500;600&display=swap");
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #fcfcf4;
+  margin: 0;
+  position: relative;
+}
+
+body header {
+  width: 56%;
+  height: auto;
+  margin: 10% auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .header-item-1 {
+  width: 30%;
+  height: 100%;
+}
+
+body header .header-item-2 {
+  width: 70%;
+  height: 100%;
+}
+
+body header .header-item-2 h1 {
+  font-weight: 600;
+  margin: 0 0 5%;
+}
+
+body header .header-item-2 h2 {
+  font-weight: 500;
+  margin: 0 0 5%;
+}
+
+body header .header-item-2 p {
+  margin: 0 0 2%;
+  line-height: 25px;
+}
+
+body header img {
+  height: 30px;
+}
+
+body main {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .basics {
+  width: 80%;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .basics-item-1 {
+  width: 30%;
+}
+
+body main .basics-item-2 {
+  width: 70%;
+}
+
+body main .basics-item-2 ul {
+  padding: 0;
+}
+
+body main .basics-item-2 ul li {
+  list-style: none;
+  height: 26px;
+}
+
+body main .basics-item-2 ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+body main .basics-item-2 ul li a:hover {
+  color: #DEBA9D;
+}
+
+body main .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  width: 80%;
+}
+
+body main .info-item-1 {
+  width: 30%;
+  height: 100%;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+body main .info-item-1 h2 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+body main .info-item-2 {
+  width: 70%;
+  height: 100%;
+}
+
+body main .info-item-2 ul {
+  padding: 0;
+}
+
+body main .info-item-2 ul li {
+  list-style: none;
+  height: 26px;
+}
+
+body main .languages {
+  width: 80%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .languages-item-1 {
+  width: 30%;
+}
+
+body main .languages-item-2 {
+  width: 70%;
+}
+
+body main .languages-item-2 ul {
+  padding: 0;
+}
+
+body main .languages-item-2 ul li {
+  height: 26px;
+  list-style: none;
+}
+
+body main .education {
+  width: 80%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .education-item-1 {
+  width: 30%;
+}
+
+body main .education-item-2 {
+  width: 70%;
+}
+
+body main .education-item-2 ul {
+  padding: 0;
+}
+
+body main .education-item-2 ul li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+body main .education-item-2 ul li .year {
+  color: #999;
+}
+
+body main .projects {
+  width: 80%;
+  height: auto;
+  margin-bottom: 150px;
+}
+
+body main .projects h2 {
+  text-align: center;
+}
+
+body main .projects-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+body main .projects-wrapper .project-item {
+  width: 400px;
+  height: 225px;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+body main .projects-wrapper .project-item:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+body main .projects-wrapper .project-item:hover > h5 {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  opacity: 1;
+}
+
+body main .projects-wrapper .project-item h5 {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  opacity: 0;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+body main .projects-wrapper .proj1 {
+  background-image: url("./assets/project-1.png");
+}
+
+body main .projects-wrapper .proj1-info {
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #fcfcf4;
+}
+
+body main .projects-wrapper .proj1-info p {
+  margin: 5px 0;
+}
+
+body main .projects-wrapper .proj1:hover > .proj1-info {
+  opacity: 1;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+body main .projects-wrapper .proj2 {
+  background-image: url("./assets/project-2.png");
+}
+
+body main .projects-wrapper .proj2-info {
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #fcfcf4;
+}
+
+body main .projects-wrapper .proj2-info p {
+  margin: 5px 0;
+}
+
+body main .projects-wrapper .proj2:hover > .proj2-info {
+  opacity: 1;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+body main .snippet {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 100px;
+}
+
+body main .snippet img {
+  height: 370px;
+}
+
+body footer {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+body footer img {
+  height: 20px;
+  width: 20px;
+  margin-left: 15px;
+}

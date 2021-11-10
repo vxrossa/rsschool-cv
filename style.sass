@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&family=Josefin+Sans:wght@400;500;600&display=swap')
+  
+body
+  font-family: 'Josefin Sans', sans-serif
+  background-color: #fcfcf4
+  margin: 0
+  position: relative
+  header
+    width: 56%
+    height: auto
+    margin: 10% auto 0
+    display: flex
+    .header-item-1
+      width: 30%
+      height: 100%
+    .header-item-2
+      width: 70%
+      height: 100%
+      h1
+        font-weight: 600
+        margin: 0 0 5%
+      h2
+        font-weight: 500
+        margin: 0 0 5%
+      p
+        margin: 0 0 2%
+        line-height: 25px
+    img
+      height: 30px
+  main
+    width: 70%
+    height: auto
+    margin: 0 auto
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    .basics
+      width: 80%
+      height: 120px
+      display: flex
+      &-item-1
+        width: 30%
+      &-item-2
+        width: 70%
+        ul
+          padding: 0
+          li
+            list-style: none
+            height: 26px
+            a
+              text-decoration: none
+              color: black
+              &:hover
+                color: #DEBA9D
+    .info
+      display: flex
+      height: 300px
+      width: 80%
+      &-item-1
+        width: 30%
+        height: 100%
+        font-weight: 600
+        font-size: 26px
+        h2
+          font-size: 26px
+          font-weight: 500
+      &-item-2
+        width: 70%
+        height: 100%
+        ul
+          padding: 0
+          li
+            list-style: none
+            height: 26px
+    .languages
+      width: 80%
+      height: 100px
+      display: flex
+      &-item-1
+        width: 30%        
+      &-item-2
+        width: 70%
+        ul
+          padding: 0
+          li
+            height: 26px
+            list-style: none
+    .education
+      width: 80%
+      height: 200px
+      display: flex
+      &-item-1
+        width: 30%
+      &-item-2
+        width: 70%
+        ul
+          padding: 0
+          li
+            list-style: none
+            margin-bottom: 30px
+            .year
+              color: #999
+    .projects
+      width: 80%
+      height: auto
+      margin-bottom: 150px
+      h2
+        text-align: center
+      &-wrapper
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        justify-items: center
+        width: 100%
+        height: 100%
+        .project-item
+          width: 400px
+          height: 225px
+          background-size: cover
+          background-position: center
+          transition: 0.5s ease-in-out
+          background-color: black
+          display: flex
+          justify-content: center
+          align-items: flex-end
+          filter: grayscale(100%)
+          &:hover
+            transform: scale(1.2)
+            transition: 0.5s ease-in-out
+            filter: grayscale(0%)
+          &:hover > h5
+            transition: 0.5s ease-in-out
+            opacity: 1
+          h5
+            position: absolute
+            z-index: 2
+            color: white
+            opacity: 0
+            transition: 0.5s ease-in-out
+            
+        .proj1
+          background-image: url('./assets/project-1.png')
+          &-info
+            opacity: 0
+            position: absolute
+            top: 100%
+            width: 100%
+            height: 100px
+            transition: 0.5s ease-in-out
+            background-color: #fcfcf4
+            p
+              margin: 5px 0
+          &:hover > .proj1-info
+            opacity: 1
+            transition: 0.5s ease-in-out
+        .proj2
+          background-image: url('./assets/project-2.png')
+          &-info
+            opacity: 0
+            position: absolute
+            top: 100%
+            width: 100%
+            height: 100px
+            transition: 0.5s ease-in-out
+            background-color: #fcfcf4
+            p
+              margin: 5px 0
+          &:hover > .proj2-info
+            opacity: 1
+            transition: 0.5s ease-in-out
+    .snippet
+      width: 80%
+      display: flex
+      align-items: center
+      flex-direction: column
+      margin-bottom: 100px
+      img
+        height: 370px
+  footer
+    position: fixed
+    width: 100%
+    height: 40px
+    bottom: 0px
+    display: flex
+    align-items: center
+    justify-content: start
+    img
+      height: 20px
+      width: 20px
+      margin-left: 15px

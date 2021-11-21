@@ -185,119 +185,46 @@ body main .education-item-2 ul li .year {
   color: #999;
 }
 
-body main .projects {
+body main .project-wrap {
   width: 80%;
-  height: auto;
-  margin-bottom: 150px;
-}
-
-body main .projects h2 {
-  text-align: center;
-}
-
-body main .projects-wrapper {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  width: 100%;
-  height: 100%;
-}
-
-body main .projects-wrapper .project-item {
-  width: 400px;
-  height: 225px;
-  background-size: cover;
-  background-position: center;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  background-color: black;
+  height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  margin-bottom: 100px;
 }
 
-body main .projects-wrapper .project-item:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  -webkit-filter: grayscale(0%);
-          filter: grayscale(0%);
+body main .project-wrap-item-1 {
+  width: 30%;
 }
 
-body main .projects-wrapper .project-item:hover > h5 {
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  opacity: 1;
+body main .project-wrap-item-2 {
+  width: 70%;
 }
 
-body main .projects-wrapper .project-item h5 {
-  position: absolute;
-  z-index: 2;
-  color: white;
-  opacity: 0;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+body main .project-wrap-item-2 ul {
+  padding: 0;
 }
 
-body main .projects-wrapper .proj1 {
-  background-image: url("./assets/project-1.png");
+body main .project-wrap-item-2 ul li {
+  list-style: none;
 }
 
-body main .projects-wrapper .proj1-info {
-  opacity: 0;
-  position: absolute;
-  top: 100%;
-  width: 100%;
-  height: 100px;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  background-color: #fcfcf4;
+body main .project-wrap-item-2 ul li a {
+  color: black;
 }
 
-body main .projects-wrapper .proj1-info p {
-  margin: 5px 0;
+body main .project-wrap-item-2 ul li a:hover {
+  color: #DEBA9D;
 }
 
-body main .projects-wrapper .proj1:hover > .proj1-info {
-  opacity: 1;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+body main .project-wrap-item-2 ul li p {
+  line-height: 25px;
 }
 
-body main .projects-wrapper .proj2 {
-  background-image: url("./assets/project-2.png");
-}
-
-body main .projects-wrapper .proj2-info {
-  opacity: 0;
-  position: absolute;
-  top: 100%;
-  width: 100%;
-  height: 100px;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  background-color: #fcfcf4;
-}
-
-body main .projects-wrapper .proj2-info p {
-  margin: 5px 0;
-}
-
-body main .projects-wrapper .proj2:hover > .proj2-info {
-  opacity: 1;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+body main .project-wrap-item-2 ul li .techs {
+  color: #999;
+  font-size: 16px;
 }
 
 body main .snippet {
@@ -339,4 +266,22 @@ body footer img {
   height: 20px;
   width: 20px;
   margin-left: 15px;
+}
+
+.proj1 {
+  background-image: url("./assets/project-1.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.proj2 {
+  background-image: url("./assets/project-2.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.proj3 {
+  background-image: url("./assets/project-3.png");
+  background-size: cover;
+  background-position: center center;
 }

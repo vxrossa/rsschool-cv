@@ -1,0 +1,23 @@
+[33mcommit a96db6849d4c396262922cbc0d7c7ddaeb5af666[m[33m ([m[1;36mHEAD -> [m[1;32mgh-pages[m[33m)[m
+Author: vxrossa <ibasalaev@icloud.com>
+Date:   Sun Sep 5 12:55:13 2021 +0300
+
+    feat: add skills and code example
+
+[33mcommit 216404b1c21a01d99a36738a1172be05f43d278f[m[33m ([m[1;31morigin/gh-pages[m[33m)[m
+Author: vxrossa <ibasalaev@icloud.com>
+Date:   Tue Aug 17 10:11:58 2021 +0600
+
+    fix: add syntax highlighting
+
+[33mcommit 6f94bfeaf3075bff2d903e2c93cabff8bc58ec66[m
+Author: vxrossa <ibasalaev@icloud.com>
+Date:   Tue Aug 17 10:08:33 2021 +0600
+
+    feat: add code example
+
+[33mcommit 8e3adc00a8a778c40ed66b5828e269a80a51629a[m[33m ([m[1;32mmaster[m[33m)[m
+Author: vxrossa <ibasalaev@icloud.com>
+Date:   Thu Aug 12 20:05:42 2021 +0600
+
+    first commit

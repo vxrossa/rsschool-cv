@@ -39,6 +39,7 @@ body
       width: 80%
       height: 120px
       display: flex
+      border-bottom: 1px solid black
       &-item-1
         width: 30%
       &-item-2
@@ -55,8 +56,9 @@ body
                 color: #DEBA9D
     .info
       display: flex
-      height: 300px
+      height: auto
       width: 80%
+      border-bottom: 1px solid black
       &-item-1
         width: 30%
         height: 100%
@@ -70,40 +72,49 @@ body
         height: 100%
         ul
           padding: 0
+          margin: 0
           li
             list-style: none
-            height: 26px
+            height: auto
+            margin: 10px 0
     .languages
       width: 80%
-      height: 100px
+      height: auto
       display: flex
+      border-bottom: 1px solid black
       &-item-1
         width: 30%        
       &-item-2
         width: 70%
+        height: 100%
         ul
           padding: 0
+          margin: 0
           li
-            height: 26px
+            height: 50%
+            margin: 20px 0
             list-style: none
+            line-height: 20px
     .education
       width: 80%
-      height: 200px
+      height: auto
       display: flex
+      border-bottom: 1px solid black
       &-item-1
         width: 30%
       &-item-2
         width: 70%
         ul
           padding: 0
+          margin: 0
           li
             list-style: none
-            margin-bottom: 30px
+            margin: 20px 0
             .year
               color: #999
     .project-wrap
       width: 80%
-      height: 400px
+      height: auto
       display: flex
       margin-bottom: 100px
       &-item-1
@@ -158,3 +169,64 @@ body
   background-image: url('./assets/project-3.png')
   background-size: cover
   background-position: center center
+
+@media screen and (max-width: 1080px)
+  body
+    header
+      flex-wrap: wrap
+      .header-item-1
+        width: 100%
+        margin-bottom: 50px
+      .header-item-2
+        width: 100%
+    main
+      .basics
+        flex-wrap: wrap
+        height: auto
+        &-item-1
+          width: 100%
+        &-item-2
+          width: 100%
+      .education
+        flex-wrap: wrap
+        height: auto
+        &-item-1
+          width: 100%
+        &-item-2
+          width: 100%
+          p
+            line-height: 30px
+      .languages
+        flex-wrap: wrap
+        height: auto
+        &-item-1
+          width: 100%
+        &-item-2
+          width: 100%
+      .info
+        flex-wrap: wrap
+        height: auto
+        &-item-1
+          width: 100%
+          height: auto
+        &-item-2
+          width: 100%
+      .project-wrap
+        flex-wrap: wrap
+        margin-bottom: 50px
+        &-item-1
+          width: 100%
+        &-item-2
+          width: 100%
+          height: auto
+    footer
+      width: 12%
+      flex-direction: column
+      align-items: start
+      bottom: 150px
+      left: 0px
+      a
+        img
+          height: 30px
+          width: 30px
+
